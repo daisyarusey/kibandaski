@@ -1,0 +1,36 @@
+#summary {
+  display: none;
+}
+
+.menuimages{
+  max-width: 1000px;
+  max-height: 636px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+.right {
+  text-align: right;
+
+.view {
+    background: url("../img/kibanda.jpg")no-repeat center center;
+    background-size: cover;
+}
+@media (min-width: 768px) {
+    .view {
+        overflow: visible;
+        margin-top: -56px;
+    }
+}
+.navbar {
+    z-index: 1;
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+
+}
