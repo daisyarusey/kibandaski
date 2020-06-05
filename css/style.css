@@ -1,0 +1,50 @@
+#summary {
+  display: none;
+}
+
+
+
+.right {
+  text-align: right;
+}
+
+  .view {
+      background: url("../img/kibanda.jpg")no-repeat center center;
+      background-size: cover;
+  }
+  @media (min-width: 768px) {
+      .view {
+          overflow: visible;
+          margin-top: -56px;
+      }
+  }
+  .navbar {
+      z-index: 1;
+  }
+
+  html,
+  body,
+  header,
+  .view {
+    height: 100%;
+  }
+body{
+  font-family: 'Quicksand', sans-serif;
+  padding: 0;
+  margin-top: 25px;
+}
+footer{
+  margin-bottom: -30px;
+
+}
+.fa-envelope, .fa-phone, .fa-map-marker-alt {
+  color: green;
+}
+.mainHeading{
+  font-size: 75px;
+  font-family: 'Shadows Into Light', cursive;
+}
+.slogan{
+  font-size: 30px;
+  font-family: 'Shadows Into Light', cursive;
+}
